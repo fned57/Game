@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Button_Click
     - Di_Chuyen
+    - Meo
     - OtoDiChuyen
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -67,19 +68,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2632}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3480}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 3490}
+      Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3492}
+    - Class: 114
+      Script: {instanceID: 3616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -307,6 +310,12 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: e772ca44da4dd97df692207cbaf250d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meo
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -511,7 +520,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: d9bfcf878670f8764b873f64b638a124
+      Hash: 3a9a72d533d6282cc03fd0d607d6162d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Di_Chuyen
@@ -541,7 +550,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: a43e3bc184a76d3dbdf47300ecefe45c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OtoDiChuyen
@@ -554,4 +563,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/POLYGON city pack/scene/DemoScene.unity
-  playerPath: "C:/Users/trand/OneDrive/M\xE1y t\xEDnh/game/New Unity Project (4).exe"
+  playerPath: "C:/Users/trand/OneDrive/M\xE1y t\xEDnh/New folder (2)/New Unity Project
+    (4).exe"

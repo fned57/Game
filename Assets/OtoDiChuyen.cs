@@ -8,11 +8,12 @@ public class OtoDiChuyen : MonoBehaviour
     public float speed = 5f;
     int Di = 1;
     public GameObject[] BanhXe;
-
+  
 
 
     void Start()
     {
+       
         //transform.position = new Vector3(-315.14f, 69.77f, 54.77f);
 
     }
@@ -408,11 +409,6 @@ public class OtoDiChuyen : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag.Equals("Meo"))
-        {
-            Time.timeScale = 0;
-        }
-    }
+
+   
 }

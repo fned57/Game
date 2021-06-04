@@ -59,9 +59,11 @@
     <Compile Include="Assets\Button_Click.cs" />
     <Compile Include="Assets\Di_Chuyen.cs" />
     <Compile Include="Assets\OtoDiChuyen.cs" />
+    <Compile Include="Assets\Meo.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AnimeGirls\BaseCharacter\BaseCharacter\Sourcefiles\Shader\DoubleSided.shader" />
+     <None Include="Assets\huong dan.txt" />
      <None Include="Assets\AnimeGirls\BaseCharacter\BaseCharacter\Sourcefiles\Shader\UnlitColor.shader" />
      <None Include="Assets\POLYGON city pack\Read_me.txt" />
     <Reference Include="UnityEngine">

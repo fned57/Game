@@ -11,7 +11,7 @@ public class Di_Chuyen : MonoBehaviour
     public int lever = 1;
     public Animator animator;
     public Animator People;
-    bool Di_Chuyen_s = true;
+    public bool Di_Chuyen_s = true;
     public GameObject[] button;
 
     
@@ -100,20 +100,26 @@ public class Di_Chuyen : MonoBehaviour
 
 
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Meo")
-        {
-            TimDuoc = true;
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other.tag == "Meo")
+    //    {
+    //        TimDuoc = true;
             
-        }
-    }
+    //    }
+    //}
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "oto")
         {
             Time.timeScale = 0;
             button[0].SetActive(true);
+            TimDuoc = false;
+        }
+        if (collision.gameObject.tag == "Meo")
+        {
+            TimDuoc = true;
+
         }
     }
 }

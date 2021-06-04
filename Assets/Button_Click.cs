@@ -26,8 +26,12 @@ public class Button_Click : MonoBehaviour
         //camera
 
         p[0].SetActive(true);
+        //nguoi
         p[1].transform.position = new Vector3(-308.6f, 69.87f, 17.73f);
         p[1].transform.localRotation = Quaternion.Euler(0, 0, 0);
+        //meo
+        p[2].transform.position = new Vector3(-307.33f, 69.87f, 17.9f);
+        p[2].transform.localRotation = Quaternion.Euler(0, 0, 0);
     }
     public void play()
     {
